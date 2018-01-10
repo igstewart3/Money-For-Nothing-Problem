@@ -12,11 +12,21 @@
 		FA1CA8FC200417AE00875C4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1CA8FB200417AE00875C4B /* Assets.xcassets */; };
 		FA1CA8FF200417AE00875C4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1CA8FD200417AE00875C4B /* Main.storyboard */; };
 		FA1CA902200417AE00875C4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1CA901200417AE00875C4B /* main.m */; };
-		FA1CA90D200417B000875C4B /* Money_For_Nothing_ProblemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1CA90C200417B000875C4B /* Money_For_Nothing_ProblemTests.m */; };
+		FA1CA9192004395C00875C4B /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1CA9182004395C00875C4B /* Client.m */; };
+		FA1CA91B2005AE6E00875C4B /* ClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1CA91A2005AE6E00875C4B /* ClientTests.m */; };
+		FA1CA9252005B12400875C4B /* Money_For_Nothing_ProblemUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1CA9242005B12400875C4B /* Money_For_Nothing_ProblemUITests.m */; };
+		FA1CA9302005C4CC00875C4B /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = FA1CA92F2005C4CC00875C4B /* en.lproj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		FA1CA909200417AF00875C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA1CA8EA200417AD00875C4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA1CA8F1200417AD00875C4B;
+			remoteInfo = "Money For Nothing Problem";
+		};
+		FA1CA9272005B12400875C4B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FA1CA8EA200417AD00875C4B /* Project object */;
 			proxyType = 1;
@@ -37,8 +47,15 @@
 		FA1CA901200417AE00875C4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FA1CA903200417AE00875C4B /* Money_For_Nothing_Problem.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Money_For_Nothing_Problem.entitlements; sourceTree = "<group>"; };
 		FA1CA908200417AF00875C4B /* Money For Nothing ProblemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Money For Nothing ProblemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA1CA90C200417B000875C4B /* Money_For_Nothing_ProblemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Money_For_Nothing_ProblemTests.m; sourceTree = "<group>"; };
 		FA1CA90E200417B000875C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1CA9172004395C00875C4B /* Client.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		FA1CA9182004395C00875C4B /* Client.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
+		FA1CA91A2005AE6E00875C4B /* ClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientTests.m; sourceTree = "<group>"; };
+		FA1CA9222005B12400875C4B /* Money For Nothing ProblemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Money For Nothing ProblemUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1CA9242005B12400875C4B /* Money_For_Nothing_ProblemUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Money_For_Nothing_ProblemUITests.m; sourceTree = "<group>"; };
+		FA1CA9262005B12400875C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1CA92E2005C47D00875C4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		FA1CA92F2005C4CC00875C4B /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA1CA91F2005B12400875C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -64,6 +88,7 @@
 			children = (
 				FA1CA8F4200417AD00875C4B /* Money For Nothing Problem */,
 				FA1CA90B200417AF00875C4B /* Money For Nothing ProblemTests */,
+				FA1CA9232005B12400875C4B /* Money For Nothing ProblemUITests */,
 				FA1CA8F3200417AD00875C4B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,6 +98,7 @@
 			children = (
 				FA1CA8F2200417AD00875C4B /* Money For Nothing Problem.app */,
 				FA1CA908200417AF00875C4B /* Money For Nothing ProblemTests.xctest */,
+				FA1CA9222005B12400875C4B /* Money For Nothing ProblemUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,6 +106,7 @@
 		FA1CA8F4200417AD00875C4B /* Money For Nothing Problem */ = {
 			isa = PBXGroup;
 			children = (
+				FA1CA92F2005C4CC00875C4B /* en.lproj */,
 				FA1CA8F5200417AE00875C4B /* AppDelegate.h */,
 				FA1CA8F6200417AE00875C4B /* AppDelegate.m */,
 				FA1CA8F8200417AE00875C4B /* ViewController.h */,
@@ -89,6 +116,8 @@
 				FA1CA900200417AE00875C4B /* Info.plist */,
 				FA1CA901200417AE00875C4B /* main.m */,
 				FA1CA903200417AE00875C4B /* Money_For_Nothing_Problem.entitlements */,
+				FA1CA9172004395C00875C4B /* Client.h */,
+				FA1CA9182004395C00875C4B /* Client.m */,
 			);
 			path = "Money For Nothing Problem";
 			sourceTree = "<group>";
@@ -96,10 +125,19 @@
 		FA1CA90B200417AF00875C4B /* Money For Nothing ProblemTests */ = {
 			isa = PBXGroup;
 			children = (
-				FA1CA90C200417B000875C4B /* Money_For_Nothing_ProblemTests.m */,
 				FA1CA90E200417B000875C4B /* Info.plist */,
+				FA1CA91A2005AE6E00875C4B /* ClientTests.m */,
 			);
 			path = "Money For Nothing ProblemTests";
+			sourceTree = "<group>";
+		};
+		FA1CA9232005B12400875C4B /* Money For Nothing ProblemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA1CA9242005B12400875C4B /* Money_For_Nothing_ProblemUITests.m */,
+				FA1CA9262005B12400875C4B /* Info.plist */,
+			);
+			path = "Money For Nothing ProblemUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +178,24 @@
 			productReference = FA1CA908200417AF00875C4B /* Money For Nothing ProblemTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		FA1CA9212005B12400875C4B /* Money For Nothing ProblemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1CA9292005B12400875C4B /* Build configuration list for PBXNativeTarget "Money For Nothing ProblemUITests" */;
+			buildPhases = (
+				FA1CA91E2005B12400875C4B /* Sources */,
+				FA1CA91F2005B12400875C4B /* Frameworks */,
+				FA1CA9202005B12400875C4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA1CA9282005B12400875C4B /* PBXTargetDependency */,
+			);
+			name = "Money For Nothing ProblemUITests";
+			productName = "Money For Nothing ProblemUITests";
+			productReference = FA1CA9222005B12400875C4B /* Money For Nothing ProblemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -154,6 +210,11 @@
 						ProvisioningStyle = Automatic;
 					};
 					FA1CA907200417AF00875C4B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA1CA8F1200417AD00875C4B;
+					};
+					FA1CA9212005B12400875C4B = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 						TestTargetID = FA1CA8F1200417AD00875C4B;
@@ -175,6 +236,7 @@
 			targets = (
 				FA1CA8F1200417AD00875C4B /* Money For Nothing Problem */,
 				FA1CA907200417AF00875C4B /* Money For Nothing ProblemTests */,
+				FA1CA9212005B12400875C4B /* Money For Nothing ProblemUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -185,11 +247,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA1CA8FC200417AE00875C4B /* Assets.xcassets in Resources */,
+				FA1CA9302005C4CC00875C4B /* en.lproj in Resources */,
 				FA1CA8FF200417AE00875C4B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		FA1CA906200417AF00875C4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1CA9202005B12400875C4B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -205,6 +275,7 @@
 			files = (
 				FA1CA8FA200417AE00875C4B /* ViewController.m in Sources */,
 				FA1CA902200417AE00875C4B /* main.m in Sources */,
+				FA1CA9192004395C00875C4B /* Client.m in Sources */,
 				FA1CA8F7200417AE00875C4B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +284,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA1CA90D200417B000875C4B /* Money_For_Nothing_ProblemTests.m in Sources */,
+				FA1CA91B2005AE6E00875C4B /* ClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1CA91E2005B12400875C4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1CA9252005B12400875C4B /* Money_For_Nothing_ProblemUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +304,11 @@
 			target = FA1CA8F1200417AD00875C4B /* Money For Nothing Problem */;
 			targetProxy = FA1CA909200417AF00875C4B /* PBXContainerItemProxy */;
 		};
+		FA1CA9282005B12400875C4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA1CA8F1200417AD00875C4B /* Money For Nothing Problem */;
+			targetProxy = FA1CA9272005B12400875C4B /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -232,6 +316,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				FA1CA8FE200417AE00875C4B /* Base */,
+				FA1CA92E2005C47D00875C4B /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -398,6 +483,32 @@
 			};
 			name = Release;
 		};
+		FA1CA92A2005B12400875C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Money For Nothing ProblemUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.igstewart3.Money-For-Nothing-ProblemUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Money For Nothing Problem";
+			};
+			name = Debug;
+		};
+		FA1CA92B2005B12400875C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Money For Nothing ProblemUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.igstewart3.Money-For-Nothing-ProblemUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Money For Nothing Problem";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -424,6 +535,15 @@
 			buildConfigurations = (
 				FA1CA915200417B000875C4B /* Debug */,
 				FA1CA916200417B000875C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1CA9292005B12400875C4B /* Build configuration list for PBXNativeTarget "Money For Nothing ProblemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1CA92A2005B12400875C4B /* Debug */,
+				FA1CA92B2005B12400875C4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
